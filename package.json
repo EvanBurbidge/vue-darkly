@@ -1,5 +1,5 @@
 {
-  "name": "@wuig/ld-cli",
+  "name": "vue-launchdarkly-cli",
   "version": "1.0.0",
   "author": "Evan Burbidge thewebuiguy@gmail.com",
   "private": false,
