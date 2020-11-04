@@ -1,6 +1,6 @@
 {
   "name": "launchdarkly-vue-client",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Evan Burbidge thewebuiguy@gmail.com",
   "private": false,
   "homepage": "https://github.com/EvanBurbidge/vue-darkly#readme",
