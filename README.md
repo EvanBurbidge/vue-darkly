@@ -1,6 +1,9 @@
 # vue-darkly
 
 ![GitHub top language](https://img.shields.io/github/languages/top/EvanBurbidge/vue-darkly)
+![npm](https://img.shields.io/npm/dt/vue-darkly)
+![version](https://img.shields.io/npm/v/vue-darkly)
+![NPM](https://img.shields.io/npm/l/vue-darkly)
 
 This project will give you access to launch darkly apis in your vuejs application
 
