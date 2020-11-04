@@ -47,7 +47,7 @@
     "README.md"
   ],
   "jsdelivr": "dist/ld-cli.umd.min.js",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "dist/ld-cli.common.js",
   "module": "dist/ld-cli.esm.js",
   "unpkg": "dist/ld-cli.umd.min.js",
