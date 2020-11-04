@@ -1,5 +1,4 @@
 # vue-darkly
-![GitHub All Releases](https://img.shields.io/github/downloads/EvanBurbidge/vue-darkly/total)
 
 ![GitHub top language](https://img.shields.io/github/languages/top/EvanBurbidge/vue-darkly)
 
