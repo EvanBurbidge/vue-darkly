@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <pre>
-      {{ flagsComputed }}
+      {{ flags }}
     </pre>
-    <div v-if="flagsComputed['some-flag-name']">
+    <div v-if="flags['some-flag-name']">
       its on
     </div>
     <div v-else>
@@ -24,11 +24,6 @@ export default {
   methods: {
     setFlags() {
       this.flags = this.$ldFlags();
-    },
-  },
-  computed: {
-    flagsComputed() {
-      return this.flags;
     },
   },
 };
