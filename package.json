@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "author": "Evan Burbidge thewebuiguy@gmail.com",
   "private": false,
+  "homepage": "https://github.com/EvanBurbidge/vue-darkly#readme",
+  "keywords": [
+    "vue",
+    "launchdarkly","analytics",
+    "client"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -51,5 +57,14 @@
   "main": "dist/ld-cli.common.js",
   "module": "dist/ld-cli.esm.js",
   "unpkg": "dist/ld-cli.umd.min.js",
-  "sideeffects": false
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EvanBurbidge/vue-darkly.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanBurbidge/vue-darkly/issues"
+  }
 }
