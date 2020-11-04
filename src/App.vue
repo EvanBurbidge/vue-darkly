@@ -3,7 +3,7 @@
     <pre>
       {{ flagsComputed }}
     </pre>
-    <div v-if="flagsComputed['vue-cli-plugin-test']">
+    <div v-if="flagsComputed['some-flag-name']">
       its on
     </div>
     <div v-else>
