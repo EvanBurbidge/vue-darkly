@@ -20,7 +20,6 @@
     "launchdarkly-js-client-sdk": "^2.10.4"
   },
   "devDependencies": {
-    "@vsware/eslint-config-vsware-vue": "^1.1.0",
     "@vue/cli-plugin-babel": "^3.0.4",
     "@vue/cli-plugin-eslint": "^3.0.4",
     "@vue/cli-plugin-unit-jest": "^3.8.0",

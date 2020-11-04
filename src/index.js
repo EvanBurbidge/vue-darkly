@@ -9,7 +9,7 @@ const install = (Vue, opts) => {
     ldClient = opts.ldClient;
   } else {
     ldClient = LDClient.initialize(opts.ldKey, opts.user, {
-      bootstrap: 'localStorage',
+      bootstrap: opts.bootstrap || 'localstorage',
     });
   }
   /* eslint-disable */
