@@ -1,8 +1,7 @@
 {
   "name": "vue-darkly",
   "version": "1.0.0",
-  "author": "Evan Burbidge thewebuiguy@gmail.com",
-  "private": false,
+  "author": "thewebuiguy@gmail.com",
   "homepage": "https://github.com/EvanBurbidge/vue-darkly#readme",
   "keywords": [
     "vue",
