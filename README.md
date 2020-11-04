@@ -41,7 +41,9 @@ npm run lint
 
 #### $ld
 - gives you access to the launch darkly client
-```javascript this.$ld.allFlags()``` // returns all flags
+```javascript
+  this.$ld.allFlags()// returns all flags
+```
 
 #### $ldFlush
 Internally, the LaunchDarkly SDK keeps an analytics event buffer. These events are flushed periodically (asynchronously). In some situations, you may want to manually call flush to process events immediately.
@@ -59,7 +61,7 @@ this.$ldFlags()
 ```
 #### $ldVariation
 
-The $ldVariation method determines which variation of a feature flag a user receives.
+The ldVariation method determines which variation of a feature flag a user receives.
 $ldVariation calls take the feature flag key and a default value.
 The default value will only be returned if an error is encountered—for example, if the feature flag key doesn't exist or the user doesn't have a key specified.
 ```javascript
@@ -69,7 +71,7 @@ this.$ldVariation('my-key', true)
 #### $ldIdentify
 You may wish to change the user context dynamically and receive the new set of feature flags for that user or generate events for the new user. For example, on a sign-in page in a single-page app, you might initialize the client with an anonymous user. When the user logs in, you'd want the feature flag settings for the authenticated user. To do this, you can call the identify function:
 ```javascript
-this.$ldIdentify(newUser, hash, function() {
+this.$ldIdentify(newUser, hash, () => {
    console.log("New user's flags available");
  });
 ```
