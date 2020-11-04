@@ -1,42 +1,42 @@
-# @wuig/ld-cli
+# launchdarkly-vue
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+```javascript
+  npm install launchdarkly
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+this will add it to your project
 
 ### Usage Api
 
-#### Options
+#### Setup
 ```javascript
-{
-  ldKey: 'your launchDarkly Key',
+import Vue from 'vue';
+import App from './App.vue';
+import LaunchDarkly from 'launchdarkly-vue';
+
+Vue.use(plugin, {
+  ldKey: process.env.VUE_APP_LD_KEY,
   user: {
-    anonymous: true
-  }
-  // anon until you login
-  // use the $ldIdentify to update user
-}
+    anonymous: true,
+  },
+});
+
+Vue.config.productionTip = false;
+
+new Vue({
+  render: h => h(App),
+  mounted() {
+    setTimeout(() => {
+      this.$ldIdentify({
+        firstName: 'Bob',
+        lastName: 'Loblaw',
+        key: 'aa0ceb',
+      });
+    }, 2000);
+  },
+}).$mount('#app');
+
 ```
 
 #### $ld
