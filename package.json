@@ -6,7 +6,8 @@
   "homepage": "https://github.com/EvanBurbidge/vue-darkly#readme",
   "keywords": [
     "vue",
-    "launchdarkly","analytics",
+    "launchdarkly",
+    "analytics",
     "client"
   ],
   "scripts": {

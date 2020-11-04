@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli-plugin-launchdarkly",
+  "name": "launchdarkly-vue-client",
   "version": "1.0.0",
   "lockfileVersion": 1,
   "requires": true,
