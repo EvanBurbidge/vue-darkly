@@ -1,12 +1,14 @@
-# launchdarkly-vue-client
+# vue-darkly
+
+This project will give you access to launch darkly apis in your vuejs application
 
 ## Project setup
 to install the launchdarkly vue client run the following npm command
 
 ```bash
-  yarn add launchdarkly-vue-client
+  yarn add vue-darkly
   // or
-  yarn add launchdarkly-vue-client
+  yarn add vue-darkly
 ```
 
 
@@ -17,9 +19,9 @@ to install the launchdarkly vue client run the following npm command
 ```javascript
 import Vue from 'vue';
 import App from './App.vue';
-import LaunchDarkly from 'launchdarkly-vue-client';
+import VueDarkly from 'vue-darkly';
 
-Vue.use(plugin, {
+Vue.use(VueDarkly, {
   ldKey: process.env.VUE_APP_LD_KEY,
   user: {
     anonymous: true,
