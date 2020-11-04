@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@vsware/eslint-config-vsware-vue"
-  ]
-}

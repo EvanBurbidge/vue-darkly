@@ -1,13 +1,11 @@
 {
-  "name": "vue-launchdarkly-cli",
+  "name": "vue-cli-plugin-launchdarkly",
   "version": "1.0.0",
   "author": "Evan Burbidge thewebuiguy@gmail.com",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "prepublish": "vue-cli-service lint && vue-cli-service build",
     "start": "vue-cli-service serve",
     "test": "npm run test:unit",
     "test:unit": "vue-cli-service test:unit"
@@ -49,15 +47,14 @@
     "dist/ld-cli.common.js",
     "dist/ld-cli.umd.min.js",
     "dist/ld-cli.umd.js",
-    "dist/ld-cli.esm.js"
+    "dist/ld-cli.esm.js",
+    "package.json",
+    "README.md"
   ],
   "jsdelivr": "dist/ld-cli.umd.min.js",
   "license": "UNLICENSED",
   "main": "dist/ld-cli.common.js",
   "module": "dist/ld-cli.esm.js",
-  "publishConfig": {
-    "registry": "http://artifactory.vsware.ie/artifactory/api/npm/npm-release-repos/"
-  },
-  "sideeffects": false,
-  "unpkg": "dist/ld-cli.umd.min.js"
+  "unpkg": "dist/ld-cli.umd.min.js",
+  "sideeffects": false
 }
