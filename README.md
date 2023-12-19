@@ -13,7 +13,7 @@ to install the launchdarkly vue client run the following npm command
 ```bash
   yarn add vue-darkly
   // or
-  yarn add vue-darkly
+  npm i vue-darkly
 ```
 
 
